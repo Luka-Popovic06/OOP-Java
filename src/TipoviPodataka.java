@@ -1,4 +1,4 @@
-public class Uvod {
+public class TipoviPodataka {
     public static void main (String[] args) {
         byte byteValue = 10; // od -127 do 128 => 8 bit = binary digit
         short shortValue = 36;
@@ -41,6 +41,17 @@ public class Uvod {
 
         char smajli = '\u263A';
         System.out.println(smajli);
+
+        /// String (gledam kao zicu na koju redjam karaktere):
+        //Navodi se sa dvostrukim navodnicima ""
+
+        String text = "Luka jede jabuku!";
+        System.out.println(text);
+
+        /// Za tacno ili netacno:
+
+        boolean tacno = true;
+        boolean netacno = false;
 
     }
 }
