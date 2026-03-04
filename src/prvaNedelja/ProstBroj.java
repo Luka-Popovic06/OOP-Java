@@ -1,3 +1,5 @@
+package prvaNedelja;
+
 import java.util.Scanner;//importujemo class
 
 public class ProstBroj {

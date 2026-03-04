@@ -1,3 +1,5 @@
+package prvaNedelja;
+
 public class TipoviPodataka {
     public static void main (String[] args) {
         byte byteValue = 10; // od -127 do 128 => 8 bit = binary digit

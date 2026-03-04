@@ -1,3 +1,5 @@
+package prvaNedelja;
+
 public class AritmetickeOperacije {
     public static void main(String[] args) {
         /// Sabiranje i cake:

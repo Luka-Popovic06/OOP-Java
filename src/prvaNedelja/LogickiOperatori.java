@@ -1,3 +1,5 @@
+package prvaNedelja;
+
 public class LogickiOperatori {
     public static void main(String[] args) {
         boolean x = true, y = false;
