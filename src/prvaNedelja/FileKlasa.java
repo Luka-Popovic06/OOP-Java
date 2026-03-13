@@ -32,6 +32,7 @@ public class FileKlasa {
             scanner.close();
         }catch (Exception e){
             System.out.println("Fajl nije pronadjen");
+
         }
 
         /// 2. Pisanje u tekstualnom fajlu:

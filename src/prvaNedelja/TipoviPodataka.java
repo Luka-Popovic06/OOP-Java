@@ -12,7 +12,7 @@ public class TipoviPodataka {
         long dugacakBroj = 10000L; //MORA DA SE STAVI NA KRAJU "L" DA BI PROGRAM ZANAO DA NIJE int NEGO long
 
         /// DECIMALNI BROJ:
-        float pi = 3.14F; //Mora i ovde da se stavi "F" da bi znali da je float
+        float pi = 3.14f; //Mora i ovde da se stavi "F" da bi znali da je float
 
         double decimalniBroj = 8.500;//Sad mi netreba nista na kraju zato sto je type doble
 

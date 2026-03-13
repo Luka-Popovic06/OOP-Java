@@ -10,7 +10,7 @@ public class AritmetickeOperacije {
         System.out.println("Oduzimanje: "+ (a-b));
         System.out.println("Mnozenje: "+ (a*b));
         System.out.println("Deljenje: "+ (a/b));
-
+        System.out.println("Ostatak: "+ (5%2));
     }
 
 }
