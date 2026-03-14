@@ -1,4 +1,4 @@
-package Stringovi;
+package drugaNedelja.Stringovi;
 
 public class PoredjenjeStringova {
     public static void main(String[] args){

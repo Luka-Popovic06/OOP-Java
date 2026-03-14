@@ -1,4 +1,4 @@
-package Stringovi;
+package drugaNedelja.Stringovi;
 
 import java.util.Arrays;
 

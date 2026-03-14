@@ -1,4 +1,4 @@
-package Stringovi;
+package drugaNedelja.Stringovi;
 /*
 * Dat je string " Ana-2001 " koji sadrzi ime i godinu rodjenja razdvojenih crticom,
 * sa razmacima na pocetku i na kraju
