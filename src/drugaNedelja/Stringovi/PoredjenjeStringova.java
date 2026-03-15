@@ -2,7 +2,7 @@ package drugaNedelja.Stringovi;
 
 public class PoredjenjeStringova {
     public static void main(String[] args){
-        /// String pool
+        /// String pool (kad se String pravi bez new operatora)
         // String Pool je posebna memorijska oblast gde Java čuva
         //jedinstvene String objekte kako bi štedela memoriju i ubrzala rad programa.
 

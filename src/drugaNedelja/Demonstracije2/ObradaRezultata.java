@@ -1,9 +1,7 @@
-package drugaNedelja;
+package drugaNedelja.Demonstracije2;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*Ulazni file sadrzi podatke o studentima,

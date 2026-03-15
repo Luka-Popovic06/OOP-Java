@@ -1,4 +1,4 @@
-package drugaNedelja;
+package drugaNedelja.Demonstracije2;
 
 public class Petlje {
     public static void main(String[] args){

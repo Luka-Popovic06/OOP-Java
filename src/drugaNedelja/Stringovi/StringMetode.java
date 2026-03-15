@@ -14,7 +14,7 @@ public class StringMetode {
         String tr = s.trim();
         System.out.println(tr);
 
-        /// 3.substring
+        /// 3.substring [ e1 , e2 )
         //služi da izvuče deo teksta (podstring) iz nekog String-a.
         //Uzima tekst od tog indeksa do kraja stringa ili do granicnika.
 
@@ -47,10 +47,11 @@ public class StringMetode {
         //služi da dohvati karakter na određenoj poziciji (indeksu) u stringu.
         System.out.println(tr.charAt(0));//=> D
 
-        /// 9. StringBuilder + append(reckoju dodajemo)
+        /// 9. StringBuilder + append(reckoju dodajemo) + insert(pozicija, vrednost koju dodajemo)
         //omogućava da menjaš isti objekat bez pravljenja novih.
         StringBuilder sb = new StringBuilder("Hello");
         sb.append(" World").append(" a " + tr.length());
+        sb.insert(7,"LOL");
         System.out.println(sb);
 
         /// 10. Integer.parseInt( str --> int)

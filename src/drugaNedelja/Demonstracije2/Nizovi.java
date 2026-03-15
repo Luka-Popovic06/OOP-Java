@@ -1,4 +1,4 @@
-package drugaNedelja;
+package drugaNedelja.Demonstracije2;
 
 import java.util.Arrays;
 
