@@ -71,6 +71,8 @@ public class StringMetode {
 
         /// 12. replace
         //služi da zameni jedan karakter ili deo teksta drugim u stringu.
+        //Zameni karakter: zameniće svaki karakter koji odgovara.
+        //Zameni podstring: zameniće svaku pojavu tog podstringa u celom stringu.
         String text10 = "Marko je student Racunarskog Fakulteta.";
         String newText = text10.replace("Racunarskog Fakulteta","Raf-a");
         System.out.println(newText);
