@@ -1,5 +1,7 @@
 package četvrtaNedelja.demonstracije;
 
+import java.util.Objects;
+
 public class Korisnik {
     private String prikazanoIme;
     private String korisnickoIme;
@@ -31,5 +33,10 @@ public class Korisnik {
 
         return this.korisnickoIme.equals(k.korisnickoIme) && this.prikazanoIme.equals(k.prikazanoIme) && this.lozinka.equals(k.lozinka);
 
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(korisnickoIme);
     }
 }
