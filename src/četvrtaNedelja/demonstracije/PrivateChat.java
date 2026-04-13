@@ -15,12 +15,24 @@ public class PrivateChat implements Chat{
         this.k2 = k2;
     };
 
+    public Korisnik getK1() {
+        return k1;
+    }
+
+    public Korisnik getK2() {
+        return k2;
+    }
+
     @Override
     public boolean mozeNapisatiPoruku(Korisnik korisnik) {
        if(korisnik.equals(k1) || korisnik.equals(k2)){
            if( korisnik.equals(k2) && poruke.isEmpty()) return false;
+           // ovde se ispituje da li moze napisati poruku;
+           // te je zato predhodniPosiljalac jos uvek null
+           //On se dodaje nakon ispisivanja poruke
+           if(prethodniPosiljarac == null) return korisnik.equals(k1);
 
-           if(korisnik.equals(k1) && prethodniPosiljarac.equals(k2)){
+           if(korisnik.equals(k1) && !prethodniPosiljarac.equals(k1)){
                return true;
            }else if(korisnik.equals(k2) && prethodniPosiljarac.equals(k1)){
                return  true;
@@ -34,7 +46,7 @@ public class PrivateChat implements Chat{
 
     @Override
     public void dodajPoruku(Korisnik korisnik, String poruka) {
-        prethodniPosiljarac = korisnik;
+        this.prethodniPosiljarac = korisnik;
         poruke.add(poruka);
     }
 

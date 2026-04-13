@@ -17,6 +17,10 @@ public class GroupChat implements Chat {
         grupa.remove(korisnik);
     }
 
+    public List<Korisnik> getGrupa() {
+        return grupa;
+    }
+
     @Override
     public boolean mozeNapisatiPoruku(Korisnik korisnik) {
         return grupa.contains(korisnik);
