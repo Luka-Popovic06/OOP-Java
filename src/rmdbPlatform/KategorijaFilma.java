@@ -1,1 +1,5 @@
+package rmdbPlatform;
 
+public enum KategorijaFilma {
+    NOIR_KATASTROFI,LOS_SCENARIJO,ZLATNA_SREDINA,BLOCKBUSTER_HIT,MAJSTORSKO_DELO,NEOCENJENO;
+}
