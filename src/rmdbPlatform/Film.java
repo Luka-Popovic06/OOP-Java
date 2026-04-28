@@ -1,4 +1,4 @@
-package rmdbPlatforma;
+package rmdbPlatform;
 
 import java.util.List;
 
